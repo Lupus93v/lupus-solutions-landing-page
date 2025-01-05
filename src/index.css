@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.part1 {
+    background-image: url("/public/Pictures/home1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.menubar {
+    display: flex;
+    background: rgba(255, 255, 255, 0.5);
+    height: 10vh;
+}
+
+.menubar1 {
+    margin-left: 3em;
+}
+
+.menubar-btn1 {
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.menubar2 {
+    margin-right: 3em;
+}
+
+.menubar-btn {
+    position: relative; /* Required for positioning the pseudo-element */
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 1em;
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.menubar2 .menubar-btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Position the underline slightly below the text */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: orange; /* Underline color */
+    transition: width 0.3s ease; /* Smooth animation for underline */
+}
+
+.menubar2 .menubar-btn:hover {
+    color: orange; /* Change text color on hover */
+}
+
+.menubar2 .menubar-btn:hover::after {
+    width: 100%; /* Expand underline to full width */
+}
+
+.main {
+    display: flex;
+    height: 87.5vh;
+}
+
+.main-content {
+    margin-left: 0em;
+} 
+
+.main-content h2 {
+    color: whitesmoke;
+    font-size: 4rem;
+    margin-left: 1em;
+}
+
+.main-content button {
+    position: relative;
+    color: whitesmoke;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid whitesmoke;
+    padding: 1em 2.6em;
+    border-radius: 35px;
+    box-shadow: 1px 1px 47px white;
+    margin-top: 7em;
+    margin-left: 17em;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.main-content button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 35px;
+    border: 2px solid orange;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.main-content button:hover::after {
+    transform: scale(1.1);
+}
+
+.main-content button:hover {
+    color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 14em;
+    margin-right: 2em;
+}
+
+.socials img {
+    width:"30px";
+    height:"30px";
+    border:"2px solid white";
+    border-radius: "5px";
+}
+
+.socials img:hover {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* Add a glow effect */
+    cursor: pointer;
+}
+
+.part2 {
+    background-image: url("/public/Pictures/part2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 170vh;
+}
