@@ -13,7 +13,10 @@ export default function MyProjects() {
                         <NavLink className="menubar-btn" to="/aboutme">ABOUT ME</NavLink>
                     </div>
                 </div>
-            <h1>MY PROJECTS</h1>
+                <h2 class="animate__animated animate__fadeInRight">My projects</h2>
+                <div className="projects">
+                    <a href="skisnjesko.com" target="_blanc"><img src="./Pictures/ski.jpg" alt="ski site" /></a>
+                </div>
         </div>
     )
 }
