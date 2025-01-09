@@ -39,7 +39,16 @@ export default function HomePage() {
                 </div>
             </div>
             <div className="part2">
-
+                <div className="text">
+                    <p>"</p>
+                    <h3>Life is an eternal struggle. He who dares can, he who knows no fear goes forward.</h3>
+                    <h3>Zivojin Misic</h3>
+                </div>
+                <div className="short-bio">
+                    <h3>know me</h3>
+                    <p>Hello, my name is Aleksandar Santrac. I recently graduated at Scrimba course.</p>
+                    <NavLink className="bio" class="animate__animated animate__fadeInUpBig" to="/aboutme">MORE</NavLink>
+                </div>
             </div>
         </div>
     )

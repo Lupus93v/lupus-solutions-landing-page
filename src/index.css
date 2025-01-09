@@ -133,10 +133,149 @@
     cursor: pointer;
 }
 
+.homepage .part2 {
+    display: flex;
+}
+
 .part2 {
     background-image: url("/public/Pictures/part2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 170vh;
+    min-height: 100vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background: rgba(15, 15, 15, 0.897);
+    height: 70vh;
+    width: 70vh;
+    border: 1px solid black;
+    box-shadow: 1px 1px 57px white;
+    border-radius: 13px;
+}
+
+.text p {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: orange;
+    margin-top: 0.5em;
+}
+
+.text h3 {
+    margin-top: -2em;
+    color: white;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.short-bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.short-bio h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    border-bottom: 4px solid orange;
+    width: 30%;
+    margin-bottom: 3em;
+}
+
+.short-bio p {
+    color: white;
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.short-bio button {
+    position: relative;
+    color: whitesmoke;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid whitesmoke;
+    padding: 1em 2.6em;
+    border-radius: 35px;
+    box-shadow: 1px 1px 47px white;
+    margin-top: 7em;
+    margin-left: 17em;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.short-bio button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 35px;
+    border: 2px solid orange;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.short-bio button:hover::after {
+    transform: scale(1.1);
+}
+
+.short-bio button:hover {
+    color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bio {
+    position: relative;
+    color: whitesmoke;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid whitesmoke;
+    padding: 1em 2.6em;
+    border-radius: 35px;
+    box-shadow: 1px 1px 47px white;
+    margin-top: 7em;
+    margin-left: 17em;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.bio::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 35px;
+    border: 2px solid orange;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: -1;
+}
+
+
+.bio:hover::after {
+    transform: scale(1.1);
+}
+
+.bio:hover {
+    color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about1 {
+    width: 35%;
+    display: flex;
+}
+
+.about1 img {
+    width: 80%;
 }
