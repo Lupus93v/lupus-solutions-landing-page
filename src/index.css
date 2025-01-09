@@ -150,7 +150,7 @@
     flex-direction: column;
     background: rgba(15, 15, 15, 0.897);
     height: 70vh;
-    width: 70vh;
+    width: 30%;
     border: 1px solid black;
     box-shadow: 1px 1px 57px white;
     border-radius: 13px;
@@ -173,6 +173,7 @@
 .short-bio {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .short-bio h3 {
@@ -293,8 +294,8 @@
 }
 
 .about1 p {
-    width: 35%;
-    font-size: 1.3rem;
+    width: 55%;
+    font-size: 1.1rem;
     color: white;
 }
 
@@ -302,7 +303,7 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
-    margin-top: 6em;
+    margin-top: 8em;
     padding-bottom: 3em;
 }
 
@@ -313,9 +314,14 @@
 }
 
 .about2 p {
-    width: 35%;
-    font-size: 1.3rem;
+    width: 55%;
+    font-size: 1.1rem;
     color: white;
+}
+
+.about2 span {
+    font-weight: bold;
+    color: orange;
 }
 
 .footer {

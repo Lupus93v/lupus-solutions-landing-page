@@ -46,7 +46,7 @@ export default function HomePage() {
                 </div>
                 <div className="short-bio">
                     <h3>know me</h3>
-                    <p>Hello, my name is Aleksandar Santrac. I recently graduated at Scrimba course.</p>
+                    <p>Hello, my name is Aleksandar Santrac. In March of 2024 year, I started a programming course on the SCRIMBA platform and successfully completed it in October. During the course, I became proficient in working with JavaScript, HTML, CSS, React, as well as using tools such as Figma and GitHub. This course provided me with a solid foundation in front-end development and allowed me to apply the acquired knowledge through various projects.</p>
                     <NavLink className="bio" class="animate__animated animate__fadeInUpBig" to="/aboutme">MORE</NavLink>
                 </div>
             </div>
