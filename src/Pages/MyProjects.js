@@ -15,7 +15,7 @@ export default function MyProjects() {
                 </div>
                 <h2 class="animate__animated animate__fadeInRight">My projects</h2>
                 <div className="projects">
-                    <a href="skisnjesko.com" target="_blanc"><img src="./Pictures/ski.jpg" alt="ski site" /></a>
+                    <a href="https://skisnjesko.com/" target="_blanc"><img src="./Pictures/ski.jpg" alt="ski site" /></a>
                 </div>
         </div>
     )
