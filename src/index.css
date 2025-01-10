@@ -468,6 +468,10 @@ html, body {
         margin-bottom: 1em;
     }
 
+    .projects {
+        display: flex;
+    }
+
     .projects img {
         width: 90%;
     }
