@@ -427,4 +427,36 @@
         margin-top: 0.5em;
     }
 
+    .about1 {
+        flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .about1 img {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .about1 p {
+        width: 100%;
+    }
+
+    .about2 {
+        flex-direction: column;
+        margin-top: 1em;
+
+        .pa {order: 2;}
+        img {order: 1;}
+    }
+
+    .about2 p {
+        width: 100%;
+    }
+
+    .about2 img {
+        width: 100%;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+    }
+
 }

@@ -28,7 +28,7 @@ export default function AboutMe() {
                         My personal qualities include quick problem-solving, adaptability, and persistence. I am approachable, communicative, and eager to take on new challenges and learn new skills.</p>
                 </div>
                 <div className="about2">
-                    <div>
+                    <div className="pa">
                         <p>What You Get If You Hire</p><br />
                         <p><span>Me A Fast Learner:</span> My adaptability and determination allow me to quickly learn and master new skills, tools, and technologies, ensuring I stay up-to-date in the fast-evolving tech industry.</p>
                         <p><span>Problem-Solving Expertise</span>: With my experience in law enforcement and programming, I have honed a keen ability to analyze challenges, think critically, and develop effective solutions under pressure.</p>
