@@ -3,6 +3,13 @@
     margin: auto;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+}
+
 .part1 {
     background-image: url("/public/Pictures/home1.jpg");
     background-size: cover;
@@ -354,10 +361,11 @@
 /*-------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {
-    
+
     .menubar {
         display: flex;
         justify-content: space-between;
+        margin-top: 0;
     }
 
     .menubar2 {
@@ -365,7 +373,7 @@
     }
 
     .main {
-        max-width: 100vw;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -403,6 +411,7 @@
     .part2 {
         display: flex;
         flex-direction: column;
+        max-width: 100%;
     }
 
     .text {
@@ -438,7 +447,7 @@
     }
 
     .about1 p {
-        width: 100%;
+        width: 90%;
     }
 
     .about2 {
@@ -450,21 +459,17 @@
     }
 
     .about2 p {
-        width: 100%;
+        max-width: 90%;
     }
 
     .about2 img {
-        width: 100%;
+        width: 90%;
         margin-top: 1.5em;
         margin-bottom: 1em;
     }
 
     .projects img {
-        width: 100%;
-    }
-
-    .menubar {
-        margin-top: 0;
+        width: 90%;
     }
 
 }
