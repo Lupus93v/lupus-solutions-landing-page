@@ -334,7 +334,7 @@
 }
 
 .projects {
-    width: 90%;
+    width: 90vw;
 }
 
 .projects img {
@@ -457,6 +457,14 @@
         width: 100%;
         margin-top: 1.5em;
         margin-bottom: 1em;
+    }
+
+    .projects img {
+        width: 100%;
+    }
+
+    .menubar {
+        margin-top: 0;
     }
 
 }
