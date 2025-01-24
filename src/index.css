@@ -81,6 +81,22 @@ html, body {
     margin-left: 1em;
 }
 
+.anim {
+    color: orange;
+    animation-name: anim;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+@keyframes anim {
+    from {opacity: 0%; width: 0%;}
+    to {opacity: 100%; width: 100%;}
+}
+
 .main-content button {
     position: relative;
     color: whitesmoke;

@@ -26,7 +26,7 @@ export default function HomePage() {
                 <div className="main">
                     <div className="main-content">
                         <h2 class="animate__animated animate__backInLeft">
-                            Hi, I am <span style={{ color: "orange" }}>Aleksandar</span>.
+                            Hi, I am <span className="anim">Aleksandar</span>.
                         </h2>
                         <button class="animate__animated animate__fadeInUpBig" >CONTACT ME</button>
                     </div>
